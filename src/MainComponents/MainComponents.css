@@ -1,0 +1,86 @@
+/* Header */
+
+.header {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 15px;
+    background-color: #f7f7f7;
+    color: #828181;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
+.nav-links {
+    text-align: end;
+}
+
+.nav-links a,
+.nav-links span {
+    color: #828181;
+    margin: 0 20px;
+    font-size: .8em;
+}
+
+.dropdown-new {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e0e0e0;
+    padding: 10px;
+    z-index: 8;
+    right: 20%;
+    padding: 20px;
+    padding-bottom: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    text-align: start;
+    overflow-y: scroll;
+    height: 500%;
+}
+
+.dropdown-content .topheading {
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    color: #072c5e;
+}
+
+.dropdown-new:hover .dropdown-content {
+    display: block;
+}
+
+.hover:hover {
+    background-color: #FFD800;
+    padding: 8px;
+    border-radius: 2%;
+}
+
+.hover {
+    font-size: 1rem !important;
+    color: black !important;
+    padding: 8px;
+
+}
+.elementor-button {
+    font-weight: 700;
+    color: #000;
+    background-color: #ffd800;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 40px;
+    text-decoration: none;
+    position: relative;
+    margin-left: auto;
+}
+
